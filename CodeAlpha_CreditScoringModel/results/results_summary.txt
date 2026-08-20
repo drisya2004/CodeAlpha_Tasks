@@ -1,0 +1,15 @@
+CodeAlpha Task 1 - Credit Scoring Model
+Model comparison (test set)
+============================================================
+
+              Model  Accuracy  Precision   Recall  F1-score  ROC-AUC
+Logistic Regression     0.765   0.627451 0.533333  0.576577 0.790476
+      Random Forest     0.770   0.705882 0.400000  0.510638 0.798333
+
+Top 5 most important features (Random Forest):
+                Feature  Importance
+          credit_amount    0.134261
+checking_account_status    0.106517
+                    age    0.102290
+        duration_months    0.095338
+                purpose    0.057907
